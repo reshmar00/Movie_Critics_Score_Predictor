@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: georgia, serif;
+    font-size: 30px;
+}
+
+.main_div {
+    background-color: #FAF9F6;
+    font-family: georgia, serif;
+    width: 500px;
+    height: 480px;
+    border-radius: 5px;
+    border: 15px groove orange;
+    padding: 20px;
+    margin: auto;
+}
+
+#title_of_movie{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    vertical-align: top;
+    font-family: georgia, serif;
+    text-indent: 0;
+}
+
+.editable {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    vertical-align: top;
+    font-family: georgia, serif;
+    text-indent: 0;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.editable[contenteditable]:empty:before {
+    content: attr(data-placeholder);
+    color: gray;
+}
+
+/*.editable[contenteditable] {*/
+/*    outline: none;*/
+/*}*/
+
+.editable[contenteditable]:focus:before {
+    content: "";
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    font-family: georgia, serif;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

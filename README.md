@@ -1,1 +1,2 @@
 # Movie_Critics_Score_Predictor
+The “Movie Critics’ Score Predictor” combines web scraping, machine learning, and web development to estimate critics’ scores for movies. This project has provided me with valuable experience in working with new frameworks and libraries, such as Flask for web development, managing databases with MySQL, and implementing machine learning algorithms with Keras. This immersive experience has expanded my skill set and solidified my expertise in developing robust and interactive web applications.
